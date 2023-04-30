@@ -88,6 +88,6 @@ app.delete("/todos/:id", async(req,res)=>{
     }
 })
 
-app.listen(5000,()=>{
-    console.log('5000')
+app.listen(port=5000,()=>{
+    console.log(`${port}`)
 })
